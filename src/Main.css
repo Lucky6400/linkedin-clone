@@ -1,0 +1,66 @@
+.postArea{
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.imgPost{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.imgArea{
+    width: 10%;
+}
+.writingArea{
+    width: 88%;
+}
+.postInput{
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    outline: none;
+    background: white;
+    padding: 15px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.event,.photo,.article,.video{
+    width: 25%;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.5s ease 0s;
+}
+.fileInput{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+.event:hover,.photo:hover,.article:hover,.video:hover{
+    background: rgb(206, 206, 206);
+    cursor: pointer;
+}
+.event{
+    color: rgb(251, 108, 65);
+}
+.photo{
+    color: rgb(68, 80, 241);
+}
+.video{
+    color: rgb(60, 158, 60);
+}
+.article{
+    color: rgb(236, 110, 131);
+}
+.buttonPost{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background: royalblue;
+    border: none;
+    outline: none;
+}

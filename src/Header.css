@@ -1,0 +1,47 @@
+.navbar-b{
+    color: royalblue !important;
+    /* font-size: 50px !important; */
+    margin-right: 10px;
+}
+.logo{
+   height: 40px;
+   width: 40px;
+}
+.form-input{
+    margin-left: 0%;
+    width: 80%;
+    background: rgba(211, 211, 211, 0.349);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+}
+.btn-search{
+    position: absolute;
+    left: 1%;
+    outline: none;
+    border: none;
+    background: none;
+    top: 14%;
+    color: gray;
+}
+
+small{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.m-text{
+    /* display: none; */
+    font-size: 14px;
+}
+
+@media only screen and (min-width:0px) and (max-width:567px){
+    .m-text{
+        display: block;
+    }
+    .form-input{
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+.login{
+    background: white;
+}
+.logInput{
+    width: 99%;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(47, 47, 47);
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.logInput:focus{
+    outline: 4px solid #2f6db45e;
+}
+.loginButton{
+    width: 99%;
+    border-radius: 5px;
+    border: none;
+    background: #2F6CB4;
+    color: white !important;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out 0s;
+}
+.loginButton:hover{
+    background: black;
+}
