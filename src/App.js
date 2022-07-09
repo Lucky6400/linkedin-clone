@@ -18,7 +18,7 @@ function App() {
 
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
-
+  const status = true;
 
   useEffect(()=>{
     auth.onAuthStateChanged((userAuth) => {
